@@ -16,10 +16,10 @@ START Page structure and element resets
   /* Colors you'll see cascade through the elements */
 
   /* To set your own use custom-theme.css with `custom-theme` in settings.json `theme` property */
-  --color-bg: #99daff; /* Used for the page body background */
+  --color-bg: #ffffff; /* Used for the page body background */
   --color-bg-alt: #ffffff; /* Used for social icons on hover */
   --color-text-main: #000000; /* List text ann social icons on hover */
-  --color-primary: #ffffff; /* Headers and borders */
+  --color-primary: #008323; /* Headers and borders */
   --color-forms: #ff00bc; /* Form borders and highlights */
   --color-forms-focus: #ff9028; /* Form borders and highlights */
   --color-buttons: #ffbfee; /* Button colors */
