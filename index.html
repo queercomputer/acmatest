@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello Installable</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- OpenGraph/Social sharing -->
+    <meta name="description" content="A simple starting point for your next installable PWA" />
+    <meta name="og:description" content="A simple starting point for your next installable PWA" />
+    <meta property="og:image" content="https://cdn.glitch.global/4d3939de-7a6c-4907-91f2-457806b6567a/hello-installable-icon-512.png?v=1685573553185" />
+    <meta property="og:title" content="Hello Installable" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="https://cdn.glitch.global/4d3939de-7a6c-4907-91f2-457806b6567a/hello-installable-icon-180.png?v=1685573552753" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+
+    <!-- PWA setup - update public/sw.js if you add your own assets like a new .css file -->
+    <link rel="manifest" href="/manifest.json" />
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+    <script src="/app.js"></script>
+    
+    <script src="index.js" async defer></script>
+  </head>
+  <body>
+    <main>
+      <div id="install-nudge">
+        <div class="content">
+          <div>You can install this app — no app store needed!</div>
+          <a href="/install.html" class="install">INSTALL</a>
+          <a id="close-button" class="close">&#215;</a>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="content">
+          <h1>Hello Rob</h1>
+          <p>
+            This is a draft of a basic progressive web app (PWA) with a surveymonkey survey embedded.
+            PWAs can be installed to your device like any other app on your phone — maybe try following the <a href="install.html">install link</a>, on your phone.
+            We can update this website every day with whatever content we need:
+            instruction videos, scam support, a contact form, install instructions.
+          </p>
+          
+          <button class="button" id="button-notifications">enable notifications</button>
+
+          <div id="badging-area">
+            <input type="text" id="badge-count" value="1" />
+            <button id="button-set-badge">set app badge</button>
+            <p>
+              Touching anywhere outside the "set app badge" button clears badges.
+            </p>
+          </div>
+          <br>
+        </div>
+        <script>
+  (function (t, e, s, n) {
+    var o, a, c;
+    (t.SMCX = t.SMCX || []),
+      e.getElementById(n) ||
+        ((o = e.getElementsByTagName(s)),
+        (a = o[o.length - 1]),
+        (c = e.createElement(s)),
+        (c.type = "text/javascript"),
+        (c.async = !0),
+        (c.id = n),
+        (c.src =
+          "https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd2dpOfsGyG3T0tJ8RnFtNFoZ_2Fmj5Nz7Fv7rApVdMR97V.js"),
+        a.parentNode.insertBefore(c, a));
+  })(window, document, "script", "smcx-sdk");
+</script>
+<a
+  style="font: 12px Helvetica, sans-serif; color: #999; text-decoration: none"
+  href="www.surveymonkey.com"
+>
+      </a>
+      </div>
+      
+      
+
+      <!--- FOOTER: You can safely remove the Glitch footer (but tell your friends!) ✂ --->
+      <footer class="footer">
+        <div class="tagline">
+          <b></b><br />
+          <br />
+          
+        </div>
+        <a
+          href="https://digital-ethnography.com">
+          <img class="logo"
+            src="https://cdn.glitch.global/11816c66-cf2d-423a-9337-de57f5702dea/Picture%201.png?v=1718016112840"
+            alt="digital ethnography research centre"/>
+        </a>
+      </footer>
+    </main>
+  </body>
+</html>
