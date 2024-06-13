@@ -1,7 +1,7 @@
 {
-  "name": "Hello PWA",
-  "short_name": "Hello PWA",
-  "description": "A webapp folks can install on their phones",
+  "name": "Mobile Scam Project",
+  "short_name": "MobileScam",
+  "description": "Tell us a little about each piece of scam communication you receive",
   "display": "standalone",
   "icons": [
     {
