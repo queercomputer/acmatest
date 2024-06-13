@@ -50,6 +50,17 @@ body {
   text-align: center;
   margin: 0;
 }
+
+header {
+  display: block;
+  flex-direction: column
+}
+
+main {
+  display: flex;
+  flex-direction: column
+}
+
 .wrapper {
   min-height: var(--wrapper-height);
   place-items: center;
@@ -145,6 +156,15 @@ ul {
   padding: 0 0 0 18px;
   margin: 0;
 }
+
+.moblinks a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  margin-left: 25px;
+  display: flex;
+}
+
 
 /* Link styles */
 .wrapper a:not(.btn--remix):link,
@@ -304,4 +324,59 @@ img.install {
 .logo {
   max-width: 200px;
   margin-right: 10px
+}
+
+.mobilelinks {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  transform: translateX(100%);
+  transition: transform 0.5s ease;
+  z-index: 1000;
+  padding-top: 30%
+}
+
+.moblinks {
+  padding-top: 25px;
+}
+
+.open {
+  transform: translateX(0)
+}
+
+
+.hamburger {
+  position: absolute;
+  right: 30px;
+  margin-top: 15px;
+  z-index:1001;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  transition: all 0.3s ease;
+}
+
+.hamburger.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
 }
