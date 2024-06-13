@@ -162,7 +162,8 @@ ul {
   color: black;
   font-size: 30px;
   margin-left: 25px;
-  display: flex;
+  display: block;
+  text-align: start
 }
 
 
@@ -340,7 +341,7 @@ img.install {
 }
 
 .moblinks {
-  padding-top: 25px;
+  padding-top: 30px;
   padding-left: 5%
 }
 
