@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Hello Installable</title>
+    <title>Mobile Scam Project</title>
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,24 +9,44 @@
     <!-- OpenGraph/Social sharing -->
     <meta name="description" content="Tell us about the scam communication you receive" />
     <meta name="og:description" content="Tell us about the scam communication you receive" />
-    <meta property="og:image" content="assets/mobile-scam-icon-2-512.png" />
+    <meta property="og:image" content="assets/mobile-scam-icon-3-512.png" />
     <meta property="og:title" content="Mobile Scam Project" />
     <meta name="twitter:card" content="summary" />
-    <link rel="icon" href="/Users/e120419/Documents/GitHub/acmatest/assets/mobile-scam-icon-2-180.png" />
+    <link rel="icon" href="assets/mobile-scam-icon-3-180.png" />
     <link rel="stylesheet" type="text/css" href="style.css" />
 
     <!-- PWA setup - update public/sw.js if you add your own assets like a new .css file -->
-    <link rel="manifest" href="manifest.json" />
+    <link rel="manifest" href="/manifest.json" />
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+    <script src="/app.js" defer></script>
+    <script src="index.js" defer></script>
+    <script src="menu.js" defer></script>
+
   </head>
   <body>
-    <main>
+    <header>
       <div id="install-nudge">
         <div class="content">
           <div>You can install this app — no app store needed!</div>
           <a href="install.html" class="install">INSTALL</a>
-          <a class="close">&#215;</a>
+          <a id="close-button" class="close">&#215;</a>
         </div>
       </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+    <main>
+      
+      <nav class="mobilelinks" id="mobile-links">
+        <div class="moblinks"><a href="index.html">Submit a scam</a></div>
+        <div class="moblinks"><a href="instructions.html">Instructions</a></div>
+        <div class="moblinks"><a href="contact.html">Technical support</a></div>
+        <div class="moblinks"><a href="support.html">Scam support</a></div>
+      </nav>
+
       <div class="wrapper">
         <div class="content">
           <h1>Install me:</h1>
@@ -51,12 +71,6 @@
             depending on your brpwser. Next, select "Add to Home Screen," and then just follow 
             the prompts.
           </p>
-          
-          <h2>Desktop</h2>
-          <p>
-            Different browsers work differently, but look for an install icon in the URL bar of your browser, click, and follow the prompts.
-          </p>
-          <img src="https://cdn.glitch.global/4d3939de-7a6c-4907-91f2-457806b6567a/install-desktop.png?v=1685890312306" alt="different browsers work differently, but look in your URL bar for an install icon" class="install">
         </div>
       </div>
 
