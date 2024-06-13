@@ -29,7 +29,7 @@
       "purpose": "any"
     }
   ],
-  "background_color": "#99DAFF",
-  "theme_color": "#99DAFF",
+  "background_color": "#008323",
+  "theme_color": "#008323",
   "start_url": "/"
 }
