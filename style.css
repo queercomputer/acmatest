@@ -336,7 +336,8 @@ img.install {
   transform: translateX(100%);
   transition: transform 0.5s ease;
   z-index: 1000;
-  padding-top: 30%
+  padding-top: 25%;
+  padding-left: 5%
 }
 
 .moblinks {
