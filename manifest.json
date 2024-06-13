@@ -1,7 +1,7 @@
 {
   "name": "Mobile Scam Project",
   "short_name": "Scam Watch",
-  "description": "Tell us a little about each piece of scam communication you receive",
+  "description": "Tell us about the scam communication you receive",
   "display": "standalone",
   "icons": [
     {
