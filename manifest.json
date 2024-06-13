@@ -1,31 +1,31 @@
 {
   "name": "Mobile Scam Project",
-  "short_name": "Log Scam",
+  "short_name": "Scam Watch",
   "description": "Tell us a little about each piece of scam communication you receive",
   "display": "standalone",
   "icons": [
     {
       "sizes": "512x512",
       "type": "image/png",
-      "src": "assets/mobile-scam-icon-512.png",
+      "src": "assets/mobile-scam-icon-2-512.png",
       "purpose": "any"
     },
     {
       "sizes": "192x192",
       "type": "image/png",
-      "src": "assets/mobile-scam-icon-192.png",
+      "src": "assets/mobile-scam-icon-2-192.png",
       "purpose": "any"
     },
     {
       "sizes": "180x180",
       "type": "image/png",
-      "src": "assets/mobile-scam-icon-180.png",
+      "src": "assets/mobile-scam-icon-2-180.png",
       "purpose": "any"
     },
     {
       "sizes": "120x120",
       "type": "image/png",
-      "src": "assets/mobile-scam-icon-120.png",
+      "src": "assets/mobile-scam-icon-2-120.png",
       "purpose": "any"
     }
   ],
