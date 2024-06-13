@@ -336,12 +336,12 @@ img.install {
   transform: translateX(100%);
   transition: transform 0.5s ease;
   z-index: 1000;
-  padding-top: 25%;
-  padding-left: 5%
+  padding-top: 25%
 }
 
 .moblinks {
   padding-top: 25px;
+  padding-left: 5%
 }
 
 .open {
