@@ -230,6 +230,7 @@ button {
   color: #000000;
   text-transform: uppercase;
   font-weight: bold;
+  margin: 20px
 }
 button:focus {
   outline: none;
