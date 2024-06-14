@@ -393,3 +393,12 @@ img.install {
 .hamburger.open span:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
 }
+
+.question {
+  padding: 10px
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+}
