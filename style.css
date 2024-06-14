@@ -20,9 +20,9 @@ START Page structure and element resets
   --color-bg-alt: #ffffff; /* Used for social icons on hover */
   --color-text-main: #000000; /* List text ann social icons on hover */
   --color-primary: #008323; /* Headers and borders */
-  --color-forms: #ff00bc; /* Form borders and highlights */
+  --color-forms: #008323; /* Form borders and highlights */
   --color-forms-focus: #ff9028; /* Form borders and highlights */
-  --color-buttons: #ffbfee; /* Button colors */
+  --color-buttons: #c8ffbf; /* Button colors */
 }
 
 /* Basic page style resets */
