@@ -81,6 +81,7 @@ main {
   padding: 1rem 0 0.75rem 0;
   width: 100%;
   flex-wrap: wrap;
+  border-top: 0.5px solid var(--color-forms);
 }
 
 .footer .tagline {
