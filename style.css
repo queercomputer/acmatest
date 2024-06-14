@@ -412,9 +412,8 @@ img.install {
 
 .instructions {
   max-width: 70vw;
-  margin-bottom: 20px;
   display: block;
-  margin: 0 auto
+  margin: 0 auto 25px auto;
 }
 
 .instructions img {
