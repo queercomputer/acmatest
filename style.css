@@ -73,24 +73,17 @@ main {
   margin: 0 auto;
 }
 
-/* The footer and our remix on glitch button */
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 2rem auto 0;
-  padding: 1rem 0 0.75rem 0;
+  margin: 0.5rem 0 0 0;
+  padding: 0.75rem 0 0.75rem 0;
   width: 100%;
   flex-wrap: wrap;
   border-top: 0.5px solid var(--color-forms);
 }
 
-.footer .tagline {
-  padding: 0.25rem 1rem 1rem;
-  font-size: clamp(1rem, 0.925rem + 0.3333vw, 1.1rem);
-  text-align: left;
-  white-space: nowrap;
-  flex-grow: 8;
-}
+
 .btn--remix {
   font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
   padding: 0.8rem 1.75rem;
