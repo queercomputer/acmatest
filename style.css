@@ -395,8 +395,11 @@ img.install {
 }
 
 .question {
-  padding: 10px;
-  font-size: 18px
+  padding: 10px
+}
+
+.question a {
+  font-size: 20px
 }
 
 .answer {
