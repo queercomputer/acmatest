@@ -157,6 +157,15 @@ h2 {
   justify-content: center;
 }
 
+h3 {
+  margin-top: 0.50rem;
+  margin-bottom: 0.75rem;
+  font-size: clamp(1rem, -0.875rem + 3.333vw, 2rem);
+  display: inline-flex;
+  color: black;
+  justify-content: center;
+}
+
 ul > li,
 ol > li {
   margin-bottom: 0.75rem;
@@ -403,4 +412,8 @@ img.install {
 .answer {
     display: none;
     padding: 20px;
+}
+
+.instructions img {
+  max-width: 400px
 }
