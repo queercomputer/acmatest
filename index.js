@@ -77,6 +77,7 @@ Feature: Notifications
 *************************************************************************/
 // add notifcation settings here:
 const enablePushNotifications = true; // true to enable
+const pushServerBaseURL = "https://trusted-coherent-cast.glitch.me"; // your full push server URL
 const VAPID_PUBLIC_KEY = "BNUk5Srwrve7ZrsgXfjk1NZXMBn9-21BGDt8VCTGfxK2PfTHbGuwgHhNPuuwtgILJSgOd52ucZ1Wbz1mitg3KOE"; // public key from push server
 
 // track permissions for the sake of badging
