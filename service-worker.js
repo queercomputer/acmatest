@@ -1,7 +1,5 @@
 /*
  * ServiceWorker to make site function as a PWA (Progressive Web App)
- *
- * Based on https://glitch.com/~pwa by https://glitch.com/@PaulKinlan
  */
 
 // Specify what we want added to the cache for offline use
@@ -10,7 +8,7 @@ self.addEventListener("install", (e) => {
     // Give the cache a name
     caches.open("glitch-hello-installable-cache").then((cache) => {
       // Cache the homepage and stylesheets - add any assets you want to cache!
-      return cache.addAll(["/", "/style.css", "/index.js"]);
+      return cache.addAll(["/", "/style.css", "/index.js", "/instructions.html", "/menu.js", "/contact.html", "/support.html"]);
     })
   );
 });
@@ -30,7 +28,6 @@ self.addEventListener("push", (e) => {
   let promises = [];
 
   if ("setAppBadge" in self.navigator) {
-    // this is hard-coded to "1" because getNotifications is tricky?
     const promise = self.navigator.setAppBadge(1);
     promises.push(promise);
   }
@@ -43,6 +40,5 @@ self.addEventListener("push", (e) => {
     })
   );
 
-  // Finally...
   event.waitUntil(Promise.all(promises));
 });
