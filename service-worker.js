@@ -6,7 +6,7 @@
 self.addEventListener("install", (e) => {
   e.waitUntil(
     // Give the cache a name
-    caches.open("glitch-hello-installable-cache").then((cache) => {
+    caches.open("scam-study-cache").then((cache) => {
       // Cache the homepage and stylesheets - add any assets you want to cache!
       return cache.addAll(["/", "/style.css", "/index.js", "/instructions.html", "/menu.js", "/contact.html", "/support.html"]);
     })
