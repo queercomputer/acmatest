@@ -423,3 +423,7 @@ img.install {
 .dates {
   text-align: center;
 }
+
+div.smcx-widget-footer.smcx-embed-footer {
+  display: none;
+}
